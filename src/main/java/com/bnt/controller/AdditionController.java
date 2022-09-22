@@ -14,6 +14,7 @@ public class AdditionController {
 	public int add(@PathParam("num1") int a,@PathParam("num2") int b){
 		
 		System.out.println("vishnu");
+		System.out.println("Akshay");
 		return a+b;
 		
 	}
