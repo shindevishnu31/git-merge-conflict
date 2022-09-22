@@ -13,7 +13,6 @@ public class AdditionController {
 	@GetMapping("add")
 	public int add(@PathParam("num1") int a,@PathParam("num2") int b){
 		
-		System.out.println("vishnu");
 		System.out.println("Akshay");
 		System.out.println("Shivam");
 		return a+b;
